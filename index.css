@@ -1,0 +1,54 @@
+body {
+
+    margin: 20px;
+    background: linear-gradient(to right,  lightblue , violet, lightblue);
+  }
+  
+  h1 {
+    text-align: center;
+     
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 15px;
+
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 20%;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  
+  button {
+    padding: 15px 20px;
+    transition: 0.6s;
+    width: 250px;
+    font-size: 20px;
+    margin: 0 0%;
+  }
+  
+  button:hover {
+      transform: scale(1.09);
+  }
+  
+  table {
+    width: 15%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 20px;
+    border: 2px solid black;
+  }
+  
+  th {
+    background-color: wheat;
+    
+  }
